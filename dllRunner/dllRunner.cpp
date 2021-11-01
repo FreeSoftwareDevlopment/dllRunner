@@ -1,5 +1,6 @@
 #include <windows.h>
 #include <iostream>
+#define ignore 1
 
 typedef int(__cdecl* mai)(int argc, char* argv[]);
 
@@ -23,5 +24,5 @@ int main(int argc, char* argv[])
 		std::cerr << "could not locate the function main in dll " << argv[1] <<  std::endl;
 		return EXIT_FAILURE;
 	}
-	return funci(argc - 1, &argv[1]);
+	return funci(argc - ignore, &argv[ignore]);
 }
