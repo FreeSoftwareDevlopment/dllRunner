@@ -1,0 +1,2 @@
+#define CRASHHANDLER_API __declspec(dllexport)
+#define CRASHHANDLER_API __declspec(dllimport)

@@ -1,6 +1,3 @@
-// helloworld.cpp : Hiermit werden die exportierten Funktionen für die DLL definiert.
-//
-
 #include "framework.h"
 #include "helloworld.h"
 
