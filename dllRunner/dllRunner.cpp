@@ -23,5 +23,5 @@ int main(int argc, char* argv[])
 		std::cerr << "could not locate the function main in dll " << argv[1] <<  std::endl;
 		return EXIT_FAILURE;
 	}
-	return funci(argc, argv);
+	return funci(argc - 1, &argv[1]);
 }
