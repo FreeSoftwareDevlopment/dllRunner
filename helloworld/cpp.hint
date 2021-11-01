@@ -1,0 +1,2 @@
+#define HELLOWORLD_API __declspec(dllexport)
+#define HELLOWORLD_API __declspec(dllimport)
